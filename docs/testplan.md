@@ -6,7 +6,7 @@ Spec: `docs/spi_reg_slave_spec.md` · Feature IDs (F-01 to F-12) refer to sectio
 
 - **DUT:** `spi_reg_slave`, an SPI mode 0 slave exposing a register file over SPI.
 - **Verified:** register map behavior, access types (RW, RO, W1C, self-clearing write-only, volatile), frame counter and threshold, illegal accesses, frame validity, `irq_o`, SPI timing limits.
-- **Out of scope:** see section 10 of the spec (tri-stating `miso`, other SPI modes, burst access, multi-slave contention).
+- **Out of scope:** see section 9 of the spec (tri-stating `miso`, other SPI modes, burst access, multi-slave contention).
 
 ## 2. Environment summary
 
